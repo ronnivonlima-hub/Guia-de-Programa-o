@@ -1,0 +1,124 @@
+* { /* Seleciona todos os elementos da página */
+    margin: 0; /* Remove a margem padrão dos elementos */
+    padding: 0; /* Remove o preenchimento padrão dos elementos */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no cálculo de largura e altura */
+}
+
+body { /* Estiliza o corpo da página */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão do texto */
+    background: linear-gradient(180deg, #0f172a, #020617); /* Define um fundo em gradiente para a página */
+    color: #e5e7eb; /* Define a cor padrão do texto */
+    line-height: 1.6; /* Define a altura da linha para melhorar a leitura */
+    padding: 20px; /* Adiciona espaçamento interno nas bordas da página */
+}
+
+header { /* Estiliza o cabeçalho da página */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do cabeçalho */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+h1 { /* Estiliza o título principal */
+    font-size: 2.2rem; /* Define o tamanho da fonte do título principal */
+    color: #38bdf8; /* Define a cor do texto do título principal */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo do título principal */
+}
+
+h2, h3 { /* Estiliza os subtítulos h2 e h3 */
+    color: #f97316; /* Define a cor do texto dos subtítulos */
+    margin-top: 20px; /* Adiciona espaçamento acima dos subtítulos */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo dos subtítulos */
+}
+
+p { /* Estiliza os parágrafos */
+    font-size: 1rem; /* Define o tamanho da fonte dos parágrafos */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo dos parágrafos */
+}
+
+nav ul { /* Estiliza a lista de navegação no cabeçalho */
+    list-style: none; /* Remove os marcadores padrão da lista */
+    display: flex; /* Exibe os itens de lista em linha usando flexbox */
+    justify-content: center; /* Centraliza os itens de navegação horizontalmente */
+    gap: 15px; /* Define o espaçamento entre os itens de navegação */
+    margin-top: 10px; /* Adiciona espaçamento acima da lista de navegação */
+}
+
+nav a { /* Estiliza os links dentro da navegação */
+    color: #38bdf8; /* Define a cor dos links de navegação */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+}
+
+nav a:hover { /* Estiliza os links de navegação quando o mouse passa por cima */
+    color: #f97316; /* Altera a cor do link no estado hover */
+    text-decoration: underline; /* Adiciona sublinhado no estado hover */
+}
+
+main { /* Estiliza a área principal do conteúdo */
+    max-width: 900px; /* Limita a largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+    background-color: #020617; /* Define a cor de fundo da área principal */
+    padding: 20px; /* Adiciona espaçamento interno na área principal */
+    border-radius: 8px; /* Arredonda os cantos da área principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Adiciona sombra ao redor do conteúdo principal */
+}
+
+section { /* Estiliza cada seção da página */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo de cada seção */
+}
+
+ul, ol { /* Estiliza listas não ordenadas e listas ordenadas */
+    margin-left: 20px; /* Adiciona recuo à esquerda nas listas */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo das listas */
+}
+
+ul li, ol li { /* Estiliza cada item de lista */
+    margin-bottom: 5px; /* Adiciona espaçamento abaixo de cada item de lista */
+}
+
+a { /* Estiliza links em geral na página */
+    color: #38bdf8; /* Define a cor padrão dos links */
+}
+
+a:hover { /* Estiliza links em geral quando o mouse passa por cima */
+    color: #f97316; /* Define a cor dos links no estado hover */
+}
+
+img { /* Estiliza todas as imagens da página */
+    max-width: 100%; /* Impede que a imagem ultrapasse a largura do elemento pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 10px auto; /* Centraliza a imagem e adiciona espaçamento vertical */
+    border-radius: 4px; /* Arredonda levemente os cantos das imagens */
+}
+
+table { /* Estiliza a tabela de comparação de cursos */
+    width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+    border-collapse: collapse; /* Remove o espaçamento entre as bordas das células */
+    margin-top: 10px; /* Adiciona espaçamento acima da tabela */
+}
+
+th, td { /* Estiliza células de cabeçalho e células comuns da tabela */
+    border: 1px solid #475569; /* Define uma borda para as células da tabela */
+    padding: 8px; /* Adiciona espaçamento interno nas células */
+    text-align: left; /* Alinha o texto das células à esquerda */
+}
+
+thead th { /* Estiliza especificamente as células do cabeçalho da tabela */
+    background-color: #1e293b; /* Define uma cor de fundo para o cabeçalho */
+    color: #e5e7eb; /* Define a cor do texto no cabeçalho */
+}
+
+tbody tr:nth-child(odd) { /* Aplica estilo zebrado às linhas ímpares do corpo da tabela */
+    background-color: #0f172a; /* Define a cor de fundo para as linhas ímpares */
+}
+
+tbody tr:nth-child(even) { /* Aplica estilo zebrado às linhas pares do corpo da tabela */
+    background-color: #020617; /* Define a cor de fundo para as linhas pares */
+}
+
+footer { /* Estiliza o rodapé da página */
+    text-align: center; /* Centraliza o texto do rodapé */
+    margin-top: 20px; /* Adiciona espaçamento acima do rodapé */
+    font-size: 0.9rem; /* Define um tamanho de fonte menor para o rodapé */
+    color: #9ca3af; /* Define uma cor de texto mais clara para o rodapé */
+}
